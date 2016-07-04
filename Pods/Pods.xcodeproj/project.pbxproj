@@ -1,0 +1,762 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00D0306B64929B4359F321129B6E47D9 /* Pods-EncyclepediaTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 75483C3AF6CCFC8B8E7EFE10781DBB9E /* Pods-EncyclepediaTests-dummy.m */; };
+		482873CCE5E3095A4E6E37DBE4A7F7A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		808729888DF8133325C13C0577A50EE6 /* Pods-EncyclepediaUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8191B09A940F24B0079364D35DD3D956 /* Pods-EncyclepediaUITests-dummy.m */; };
+		8BB667781CEB6EDC5839A6CE7CB86B21 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		9895EB47F06B408EF823544017456F8D /* Pods-Encyclepedia-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E6215B563E7883E67303DC5FE2B30554 /* Pods-Encyclepedia-dummy.m */; };
+		A00B0A69DF60D68E26581E9AD4DE8178 /* Pods-EncyclepediaTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 11FE2135988CD8DDD181E8E7A04317D8 /* Pods-EncyclepediaTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A697778C1BFA36A93A7F92CF94619177 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		AA39E0940FA9176D9E04D04D7CF60D9B /* Pods-Encyclepedia-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AB302425EB50D3305B0DF8DBAAFD135 /* Pods-Encyclepedia-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EEBFF38B655FFD19A760498941A8252A /* Pods-EncyclepediaUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CA765C6D30C8461517CEF5F0363AF24 /* Pods-EncyclepediaUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		022683442EA18562437740275F54D7DE /* Pods-EncyclepediaUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EncyclepediaUITests-frameworks.sh"; sourceTree = "<group>"; };
+		0AAC3B5AF5E77D8AF52C36EACFD17C0C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C8AEAC1EF6800DFB01186758240A790 /* Pods-EncyclepediaTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EncyclepediaTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0F53C1ACE3A5015FFBF02BD3B2B45943 /* Pods-EncyclepediaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EncyclepediaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		11FE2135988CD8DDD181E8E7A04317D8 /* Pods-EncyclepediaTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EncyclepediaTests-umbrella.h"; sourceTree = "<group>"; };
+		219603845216F3E24B767B2A50F80DBE /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleInterchangeUtilities.framework; path = Frameworks/GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
+		2291660C0E7938288FFDD4C96374DE71 /* Pods-Encyclepedia-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Encyclepedia-acknowledgements.plist"; sourceTree = "<group>"; };
+		232A5F6D0D9177B2385436266F58C73A /* Pods-EncyclepediaTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-EncyclepediaTests.modulemap"; sourceTree = "<group>"; };
+		308A5FC9DAD9D1531D5F34B1E53CCED3 /* Pods-Encyclepedia-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Encyclepedia-resources.sh"; sourceTree = "<group>"; };
+		327618F06CE3C5711A89A4D36425BA92 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3448016BD24F5D94CC9C1C128E2D190E /* Pods-EncyclepediaTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EncyclepediaTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		38D632454E13FF92B64D4FF5330027DD /* Pods-EncyclepediaUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EncyclepediaUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		428CBF0803BF3B82A3423B6190785AE9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45C56D7146197D9D88414A48F37A136A /* Pods-EncyclepediaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EncyclepediaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		49A45F6A87B20B5C26329EA64D5BB86D /* Pods-EncyclepediaTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EncyclepediaTests-resources.sh"; sourceTree = "<group>"; };
+		5837EED62661F9ECEC059E9B94359365 /* Pods-EncyclepediaUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EncyclepediaUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5CA765C6D30C8461517CEF5F0363AF24 /* Pods-EncyclepediaUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EncyclepediaUITests-umbrella.h"; sourceTree = "<group>"; };
+		5DE7A2AF81CDA39555CDD1D32393D49C /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		621FC700CDEFD42AEABA98EF718C268A /* Pods-EncyclepediaUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EncyclepediaUITests-resources.sh"; sourceTree = "<group>"; };
+		6E69EC883B1D361F7256E44953E402B2 /* Pods_EncyclepediaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EncyclepediaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		75483C3AF6CCFC8B8E7EFE10781DBB9E /* Pods-EncyclepediaTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EncyclepediaTests-dummy.m"; sourceTree = "<group>"; };
+		78AA5DF552E6422D8F195E1E35FDF1B5 /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = Frameworks/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
+		8191B09A940F24B0079364D35DD3D956 /* Pods-EncyclepediaUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EncyclepediaUITests-dummy.m"; sourceTree = "<group>"; };
+		8AB302425EB50D3305B0DF8DBAAFD135 /* Pods-Encyclepedia-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Encyclepedia-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		955EDE08432AD8F7CA21008ED4CE488E /* Pods-EncyclepediaTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EncyclepediaTests-frameworks.sh"; sourceTree = "<group>"; };
+		9DDDF08DF05B2E3F0899B60E51141F1F /* Pods-Encyclepedia.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Encyclepedia.modulemap"; sourceTree = "<group>"; };
+		A5643D4C405274BE187E686A503DB43F /* Pods-Encyclepedia-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Encyclepedia-frameworks.sh"; sourceTree = "<group>"; };
+		CA829B1A7BE88717856CB1CAD93BECF2 /* Pods-Encyclepedia-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Encyclepedia-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D92137C903B297E8B07A29D54CE68AF7 /* Pods-EncyclepediaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EncyclepediaTests.release.xcconfig"; sourceTree = "<group>"; };
+		DB0C6218955B23214F1D039504530F55 /* FIRInstanceID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstanceID.h; path = Headers/Public/FIRInstanceID.h; sourceTree = "<group>"; };
+		DF275361F137FFFAC95E10B9F0BAE4E5 /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleUtilities.framework; path = Frameworks/GoogleUtilities.framework; sourceTree = "<group>"; };
+		E14E3558A94CF974944043B89D12E21E /* Pods_Encyclepedia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Encyclepedia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4920E64CA4C917D364D762F53332B2C /* Pods-Encyclepedia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Encyclepedia.release.xcconfig"; sourceTree = "<group>"; };
+		E6215B563E7883E67303DC5FE2B30554 /* Pods-Encyclepedia-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Encyclepedia-dummy.m"; sourceTree = "<group>"; };
+		EB092A7A83ED5FD5A47A16593D3AB359 /* Pods-EncyclepediaUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-EncyclepediaUITests.modulemap"; sourceTree = "<group>"; };
+		F1E5620A0289885D1A7BE12952288620 /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Headers/Firebase.h; sourceTree = "<group>"; };
+		F622E5791A0C8AC850B19C128E3238F4 /* Pods-EncyclepediaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EncyclepediaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F6253495735283D4519E0B6154BA0C9D /* Pods-Encyclepedia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Encyclepedia.debug.xcconfig"; sourceTree = "<group>"; };
+		FAF822D2C02C424982832435D7291DB1 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		FB5C28A69861F6985E32731D0B310A21 /* Pods_EncyclepediaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EncyclepediaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7AB90E447F02B6D5D8EA8B84E6292ADF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				482873CCE5E3095A4E6E37DBE4A7F7A3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEBBCC117DAC391A30C5010B0F0DF93A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BB667781CEB6EDC5839A6CE7CB86B21 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C70D5E56EB29314CADDCCB90D2B9CFA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A697778C1BFA36A93A7F92CF94619177 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		056B7FB4565C8F6CFBC262FDCD790C0C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				78AA5DF552E6422D8F195E1E35FDF1B5 /* GoogleSymbolUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		07CD37276CA4F60B1A78D6A0BDE0BF2D /* Pods-EncyclepediaTests */ = {
+			isa = PBXGroup;
+			children = (
+				428CBF0803BF3B82A3423B6190785AE9 /* Info.plist */,
+				232A5F6D0D9177B2385436266F58C73A /* Pods-EncyclepediaTests.modulemap */,
+				3448016BD24F5D94CC9C1C128E2D190E /* Pods-EncyclepediaTests-acknowledgements.markdown */,
+				0C8AEAC1EF6800DFB01186758240A790 /* Pods-EncyclepediaTests-acknowledgements.plist */,
+				75483C3AF6CCFC8B8E7EFE10781DBB9E /* Pods-EncyclepediaTests-dummy.m */,
+				955EDE08432AD8F7CA21008ED4CE488E /* Pods-EncyclepediaTests-frameworks.sh */,
+				49A45F6A87B20B5C26329EA64D5BB86D /* Pods-EncyclepediaTests-resources.sh */,
+				11FE2135988CD8DDD181E8E7A04317D8 /* Pods-EncyclepediaTests-umbrella.h */,
+				F622E5791A0C8AC850B19C128E3238F4 /* Pods-EncyclepediaTests.debug.xcconfig */,
+				D92137C903B297E8B07A29D54CE68AF7 /* Pods-EncyclepediaTests.release.xcconfig */,
+			);
+			name = "Pods-EncyclepediaTests";
+			path = "Target Support Files/Pods-EncyclepediaTests";
+			sourceTree = "<group>";
+		};
+		0B8CEF19337FA4DFF56EC7EF36B16C09 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E87E635A8BA23B6FDD7AFF5F5F24DCFC /* Firebase */,
+				17E963AC9EA7E429C37DA8FEEA72526B /* FirebaseAnalytics */,
+				C12C91F2C4C694776425E40592AE1113 /* FirebaseInstanceID */,
+				AEFF8F1B6621E9AFD02CAB76FC73388F /* GoogleInterchangeUtilities */,
+				D227E2B6883501EB56EEE7DB33608B01 /* GoogleSymbolUtilities */,
+				1FE7E728519B8C441DC0979AF90877D4 /* GoogleUtilities */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		122442F85AC0EEF686F286D9DE35D0A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAF822D2C02C424982832435D7291DB1 /* FirebaseAnalytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		17E963AC9EA7E429C37DA8FEEA72526B /* FirebaseAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				122442F85AC0EEF686F286D9DE35D0A1 /* Frameworks */,
+			);
+			path = FirebaseAnalytics;
+			sourceTree = "<group>";
+		};
+		1FE7E728519B8C441DC0979AF90877D4 /* GoogleUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				3A09B82FC34DC854CBB4A7D6B7C35C65 /* Frameworks */,
+			);
+			path = GoogleUtilities;
+			sourceTree = "<group>";
+		};
+		324E2F645E937130BB4D82B195447ABD /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				F1E5620A0289885D1A7BE12952288620 /* Firebase.h */,
+			);
+			name = Analytics;
+			sourceTree = "<group>";
+		};
+		37D5D4B7F0D5A09939370AC484151210 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8C04737F9EC252DCEE81C20EB226D357 /* Pods-Encyclepedia */,
+				07CD37276CA4F60B1A78D6A0BDE0BF2D /* Pods-EncyclepediaTests */,
+				7E813CD462C110176BE88F48407EDD3C /* Pods-EncyclepediaUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3A09B82FC34DC854CBB4A7D6B7C35C65 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF275361F137FFFAC95E10B9F0BAE4E5 /* GoogleUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				0B8CEF19337FA4DFF56EC7EF36B16C09 /* Pods */,
+				8A02A294834F0965D3202E54B5590967 /* Products */,
+				37D5D4B7F0D5A09939370AC484151210 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7E813CD462C110176BE88F48407EDD3C /* Pods-EncyclepediaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0AAC3B5AF5E77D8AF52C36EACFD17C0C /* Info.plist */,
+				EB092A7A83ED5FD5A47A16593D3AB359 /* Pods-EncyclepediaUITests.modulemap */,
+				5837EED62661F9ECEC059E9B94359365 /* Pods-EncyclepediaUITests-acknowledgements.markdown */,
+				38D632454E13FF92B64D4FF5330027DD /* Pods-EncyclepediaUITests-acknowledgements.plist */,
+				8191B09A940F24B0079364D35DD3D956 /* Pods-EncyclepediaUITests-dummy.m */,
+				022683442EA18562437740275F54D7DE /* Pods-EncyclepediaUITests-frameworks.sh */,
+				621FC700CDEFD42AEABA98EF718C268A /* Pods-EncyclepediaUITests-resources.sh */,
+				5CA765C6D30C8461517CEF5F0363AF24 /* Pods-EncyclepediaUITests-umbrella.h */,
+				45C56D7146197D9D88414A48F37A136A /* Pods-EncyclepediaUITests.debug.xcconfig */,
+				0F53C1ACE3A5015FFBF02BD3B2B45943 /* Pods-EncyclepediaUITests.release.xcconfig */,
+			);
+			name = "Pods-EncyclepediaUITests";
+			path = "Target Support Files/Pods-EncyclepediaUITests";
+			sourceTree = "<group>";
+		};
+		8A02A294834F0965D3202E54B5590967 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E14E3558A94CF974944043B89D12E21E /* Pods_Encyclepedia.framework */,
+				6E69EC883B1D361F7256E44953E402B2 /* Pods_EncyclepediaTests.framework */,
+				FB5C28A69861F6985E32731D0B310A21 /* Pods_EncyclepediaUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C04737F9EC252DCEE81C20EB226D357 /* Pods-Encyclepedia */ = {
+			isa = PBXGroup;
+			children = (
+				327618F06CE3C5711A89A4D36425BA92 /* Info.plist */,
+				9DDDF08DF05B2E3F0899B60E51141F1F /* Pods-Encyclepedia.modulemap */,
+				CA829B1A7BE88717856CB1CAD93BECF2 /* Pods-Encyclepedia-acknowledgements.markdown */,
+				2291660C0E7938288FFDD4C96374DE71 /* Pods-Encyclepedia-acknowledgements.plist */,
+				E6215B563E7883E67303DC5FE2B30554 /* Pods-Encyclepedia-dummy.m */,
+				A5643D4C405274BE187E686A503DB43F /* Pods-Encyclepedia-frameworks.sh */,
+				308A5FC9DAD9D1531D5F34B1E53CCED3 /* Pods-Encyclepedia-resources.sh */,
+				8AB302425EB50D3305B0DF8DBAAFD135 /* Pods-Encyclepedia-umbrella.h */,
+				F6253495735283D4519E0B6154BA0C9D /* Pods-Encyclepedia.debug.xcconfig */,
+				E4920E64CA4C917D364D762F53332B2C /* Pods-Encyclepedia.release.xcconfig */,
+			);
+			name = "Pods-Encyclepedia";
+			path = "Target Support Files/Pods-Encyclepedia";
+			sourceTree = "<group>";
+		};
+		8D816FB6035310E52D6DA53786BA4F67 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5DE7A2AF81CDA39555CDD1D32393D49C /* FirebaseInstanceID.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AEFF8F1B6621E9AFD02CAB76FC73388F /* GoogleInterchangeUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				F38FA45BD3E1C0E58BF4D98B0F38646B /* Frameworks */,
+			);
+			path = GoogleInterchangeUtilities;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C12C91F2C4C694776425E40592AE1113 /* FirebaseInstanceID */ = {
+			isa = PBXGroup;
+			children = (
+				DB0C6218955B23214F1D039504530F55 /* FIRInstanceID.h */,
+				8D816FB6035310E52D6DA53786BA4F67 /* Frameworks */,
+			);
+			path = FirebaseInstanceID;
+			sourceTree = "<group>";
+		};
+		D227E2B6883501EB56EEE7DB33608B01 /* GoogleSymbolUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				056B7FB4565C8F6CFBC262FDCD790C0C /* Frameworks */,
+			);
+			path = GoogleSymbolUtilities;
+			sourceTree = "<group>";
+		};
+		E87E635A8BA23B6FDD7AFF5F5F24DCFC /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				324E2F645E937130BB4D82B195447ABD /* Analytics */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		F38FA45BD3E1C0E58BF4D98B0F38646B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				219603845216F3E24B767B2A50F80DBE /* GoogleInterchangeUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		55AE3708E7F2C00498187EBE0AFF7304 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA39E0940FA9176D9E04D04D7CF60D9B /* Pods-Encyclepedia-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6138C650724DFE984D0176E9F7B47306 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEBFF38B655FFD19A760498941A8252A /* Pods-EncyclepediaUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79E4434D821AD6101CEEF3C9A7DC5777 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00B0A69DF60D68E26581E9AD4DE8178 /* Pods-EncyclepediaTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		267AEF8FE1E7C67EBFEF466161DE9B09 /* Pods-EncyclepediaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 803556D7E5552F0B057B5A66DF6271C0 /* Build configuration list for PBXNativeTarget "Pods-EncyclepediaUITests" */;
+			buildPhases = (
+				1F76DB802A40752F37B073676CCBAA24 /* Sources */,
+				7AB90E447F02B6D5D8EA8B84E6292ADF /* Frameworks */,
+				6138C650724DFE984D0176E9F7B47306 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-EncyclepediaUITests";
+			productName = "Pods-EncyclepediaUITests";
+			productReference = FB5C28A69861F6985E32731D0B310A21 /* Pods_EncyclepediaUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3FD88C51D78E185F8305CEBF98C83FEA /* Pods-Encyclepedia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E47118D2E1514376275BF11E36070AB4 /* Build configuration list for PBXNativeTarget "Pods-Encyclepedia" */;
+			buildPhases = (
+				22BD0F87C2D627508BCD78CB309CD60C /* Sources */,
+				AEBBCC117DAC391A30C5010B0F0DF93A /* Frameworks */,
+				55AE3708E7F2C00498187EBE0AFF7304 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Encyclepedia";
+			productName = "Pods-Encyclepedia";
+			productReference = E14E3558A94CF974944043B89D12E21E /* Pods_Encyclepedia.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AAD6C76FABC711CAD0AA486003B44CF9 /* Pods-EncyclepediaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BAD8A48B2E849CEAEBE34ED7ABF388D /* Build configuration list for PBXNativeTarget "Pods-EncyclepediaTests" */;
+			buildPhases = (
+				AA9E83CC7A9E994A13BB003A36771594 /* Sources */,
+				C70D5E56EB29314CADDCCB90D2B9CFA8 /* Frameworks */,
+				79E4434D821AD6101CEEF3C9A7DC5777 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-EncyclepediaTests";
+			productName = "Pods-EncyclepediaTests";
+			productReference = 6E69EC883B1D361F7256E44953E402B2 /* Pods_EncyclepediaTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 8A02A294834F0965D3202E54B5590967 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FD88C51D78E185F8305CEBF98C83FEA /* Pods-Encyclepedia */,
+				AAD6C76FABC711CAD0AA486003B44CF9 /* Pods-EncyclepediaTests */,
+				267AEF8FE1E7C67EBFEF466161DE9B09 /* Pods-EncyclepediaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F76DB802A40752F37B073676CCBAA24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				808729888DF8133325C13C0577A50EE6 /* Pods-EncyclepediaUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22BD0F87C2D627508BCD78CB309CD60C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9895EB47F06B408EF823544017456F8D /* Pods-Encyclepedia-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA9E83CC7A9E994A13BB003A36771594 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00D0306B64929B4359F321129B6E47D9 /* Pods-EncyclepediaTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		266FADD5586DCD156C99EA727A430D24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D92137C903B297E8B07A29D54CE68AF7 /* Pods-EncyclepediaTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-EncyclepediaTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EncyclepediaTests/Pods-EncyclepediaTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_EncyclepediaTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3FA451D268613890FA8A5A03801E11D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50B4419C2E8F7D601D920BCCADBC0493 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F53C1ACE3A5015FFBF02BD3B2B45943 /* Pods-EncyclepediaUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-EncyclepediaUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EncyclepediaUITests/Pods-EncyclepediaUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_EncyclepediaUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8AA82269985AD54EF3A7D79B038CF216 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4920E64CA4C917D364D762F53332B2C /* Pods-Encyclepedia.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Encyclepedia/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Encyclepedia/Pods-Encyclepedia.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Encyclepedia;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9EDD636AAAD8AF0AC3E9A75FA3D62111 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45C56D7146197D9D88414A48F37A136A /* Pods-EncyclepediaUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-EncyclepediaUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EncyclepediaUITests/Pods-EncyclepediaUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_EncyclepediaUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C6199971E8B43F0B1D9C8D380A10B973 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6253495735283D4519E0B6154BA0C9D /* Pods-Encyclepedia.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Encyclepedia/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Encyclepedia/Pods-Encyclepedia.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Encyclepedia;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CD1C53D65474E691BFD33AF3D2B210A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F622E5791A0C8AC850B19C128E3238F4 /* Pods-EncyclepediaTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-EncyclepediaTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EncyclepediaTests/Pods-EncyclepediaTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_EncyclepediaTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BAD8A48B2E849CEAEBE34ED7ABF388D /* Build configuration list for PBXNativeTarget "Pods-EncyclepediaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD1C53D65474E691BFD33AF3D2B210A1 /* Debug */,
+				266FADD5586DCD156C99EA727A430D24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */,
+				3FA451D268613890FA8A5A03801E11D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		803556D7E5552F0B057B5A66DF6271C0 /* Build configuration list for PBXNativeTarget "Pods-EncyclepediaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EDD636AAAD8AF0AC3E9A75FA3D62111 /* Debug */,
+				50B4419C2E8F7D601D920BCCADBC0493 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E47118D2E1514376275BF11E36070AB4 /* Build configuration list for PBXNativeTarget "Pods-Encyclepedia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6199971E8B43F0B1D9C8D380A10B973 /* Debug */,
+				8AA82269985AD54EF3A7D79B038CF216 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
